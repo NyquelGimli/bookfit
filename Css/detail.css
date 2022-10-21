@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: whitesmoke;
+    background-size: 100vw 93vh;
+    background-repeat: no-repeat;
+}
+
+/* 
+    LAYOUT
+*/
+
+.wrapper {
+    padding: 50px;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.left-content {
+    float: left;
+    width: 65%;
+}
+
+.right-content {
+    float: right;
+    width: 25%;
+}
+
+/* 
+    LEFT CONTENT
+*/
+/* 
+    SLIDESHOW
+*/
+.slideshow-container {
+    max-width: 100%;
+    min-width: 100%;
+}
+
+
+.mySlides img{
+    width: 900px;
+    height: 450px;
+    border-radius: 20px;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 3s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+
+/* 
+    VENUE NAME LOCATION
+*/
+.venue-name-location{
+    padding-top: 20px;
+}
+
+
+/* 
+    BOOKING FORM
+*/
+.booking-form{
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px 2px gray;
+    position: relative;
+    line-height: 200%;
+    width: 80%;
+}
+
+#date-picker, #field{
+    width: 110px;
+    height: 30px;
+
+    border-radius: 5px;
+}
+
+.time-container{
+    width: 100%;
+    display: block;
+}
+
+.book-btn > button{
+    width: 120px;
+    height: 30px;
+    background-color: #6F69FF;
+    color: white;
+    border-radius: 7px;
+}
+
+
+.book-button{
+    width: 60%;
+    float: right;
+}
+/* 
+    RIGHT CONTENT
+*/
+.rate-rating-wrapper{
+    height: 450px;
+}
+.rate-box{
+    border: 1px solid white;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px 2px gray;
+    height: 15%;
+    padding: 15px;
+}
+
+
+.rating-box{
+    margin-top: 5%;
+    border: 1px solid white;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px 2px gray;
+    padding: 15px;
+    padding-bottom: 0;
+    overflow: scroll;
+    height: 70%;
+}
+
+.contact-box{
+    height: 220px;
+    margin-top: 15px;
+    border: 1px solid white;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px 2px gray;
+    padding: 15px;
+    overflow: scroll;
+}
+
+li{
+    list-style-type: none;
+    text-decoration: none;
+}
+.contact-data{
+    padding-top: 10px;
+}

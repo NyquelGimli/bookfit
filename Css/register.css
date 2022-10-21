@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: whitesmoke;
+    background-image: url(../Assets/Images/purpleBG.png);
+    background-size: 100vw 93vh;
+    background-repeat: no-repeat;
+    
+}
+
+/*
+    Login Form
+*/
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-title{
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.login-box {
+    width: 30vw;
+    min-height: 20vh;
+    background: #020039;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    padding: 50px 50px;
+    padding-bottom: 35px;
+}
+
+.login-box p{
+    color: white;
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    margin-top: 1vh;
+    margin-bottom: 25px;
+}
+
+.btn{
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: #6F69FF;
+    outline: none;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+}
+.login-register-text{
+    margin-top: 2vh;    
+}
+#signup-login-link{
+    text-decoration: none;
+}
+a:visited{
+    color: inherit;
+}
